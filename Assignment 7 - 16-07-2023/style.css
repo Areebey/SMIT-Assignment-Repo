@@ -1,0 +1,76 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    margin: 0%;
+    margin-bottom: 50px;
+    padding: 0%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smit-logo{
+    width: 250px;
+    height: 180px;
+}
+.tag-line{
+    margin-top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    opacity: 0.6;
+}
+
+.sub-container{
+    /* width: 800px; */
+background-color:bisque;
+padding: 20px;
+display: flex;
+align-items: center;
+}
+
+table, tr, td {
+    margin: 10px;
+}
+
+ 
+.course{
+    margin: 10px;
+}
+
+td{
+    width: 200px;
+    height: 150px;
+    background-color: rgba(174, 224, 247, 0.562);
+    border: 1px solid white;
+    box-shadow: 2px 5px black;
+}
+img{
+    margin-top: 0%;
+    margin-bottom:0 ;
+    width: 250px;
+    height:150px;
+}
+.desc-div{
+    padding-top: 0%;
+    margin-top: 0%;
+    padding: 20px;
+}
+.desc-div > p{
+    font-size: small;
+    opacity: 0.7;
+}
+button{
+    padding: 5px 40px 5px 40px;
+    background-color: aqua;
+    border: none;
+    border-radius:20px ;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
