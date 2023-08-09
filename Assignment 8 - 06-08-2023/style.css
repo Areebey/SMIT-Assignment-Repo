@@ -1,4 +1,7 @@
-
+*{
+    padding: 0%;
+    margin: 0%;
+}
 .main-container{
     margin: 0;
     padding: 0;
@@ -47,7 +50,6 @@ a{
     background-color: black;
     color: white;
     text-align: center;
-    border: 1px solid green;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -64,10 +66,44 @@ li > img{
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 240px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.address-section{
+    background-color: black;
+    color: white;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.address-text-sec{
+    text-align: center;
+    font-size: x-large;
+}
+.address-text-sec > p {
+    font-size:medium;
+    margin-bottom: 20px;
+}
+.franchise-1{
+    width: 100%;
+    margin-top: 40px;;
+    display:flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.F1-img >img{
+    margin-left: 160px;
+    width: 500px;
+    height: 350px;
+}
+.F1-text >a{
+    margin-top: 30px;
+    width: 100px;
+    border: none;
 }
