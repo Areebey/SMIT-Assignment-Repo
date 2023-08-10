@@ -24,7 +24,7 @@
 li{
     margin: 15px;
 }
-a{
+li>a{
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -81,6 +81,11 @@ li > img{
     width: 100%;
     margin: 0;
     padding: 0;
+    /* margin: 0 20px; */
+}
+.address-main{
+    margin: 50px;
+    margin-top: 20px;
 }
 .address-text-sec{
     text-align: center;
@@ -91,8 +96,6 @@ li > img{
     margin-bottom: 20px;
 }
 .franchise-1{
-    width: 100%;
-    margin-top: 40px;;
     display:flex;
     flex-direction: row;
     border: 1px solid red;
@@ -102,8 +105,20 @@ li > img{
     width: 500px;
     height: 350px;
 }
-.F1-text >a{
-    margin-top: 30px;
-    width: 100px;
-    border: none;
+.F1-text {
+    margin-top: 10px;
+    width: 400px;
+    color: white;
+    margin: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
+.F1-text >img{
+    width: 50px;
+}
+.F1-text >a{
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
