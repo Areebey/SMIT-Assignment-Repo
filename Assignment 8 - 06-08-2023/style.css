@@ -1,39 +1,51 @@
 *{
     padding: 0%;
     margin: 0%;
+    background-color: black;
 }
 .main-container{
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
 }
 
 .header{
     /* width: 100%; */
+    height: 60px;
     background-color: black;
     color: white;
-    margin: 0;
-    padding: 10px;
+    padding: 13px;
+    font-size: medium;
 }
 .header > ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
-    justify-content: right;
 }
 li{
-    margin: 15px;
+    margin: 0 25px 25px 0;
 }
 li>a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #eee;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+}
+.btn-OrderOnline{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.btn-OrderOnline > img{
+    width: 20px;
+    color: white;
+
+}
+.header-logo{
+    margin: 0 90px 25px 70px;
+    width: 150px;
+    height: 70px;
 }
 
 .img-section{
@@ -56,36 +68,33 @@ li>a{
     height: 500px;
 }
 .order-cards{
+    margin: 20px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 li > img{
-    margin: 20px;
-    margin-bottom: 40px;
+    background-color: white;
+    margin: 30px 10px 30px 0px;
     display: flex;
-    flex-direction: column;
-    width: 240px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    width: 200px;
+    border-radius: 6px;
+    padding: 20px;
+}
+.order-btn{
+    border: none;
 }
 
 .address-section{
     background-color: black;
     color: white;
-    height: 700px;
     width: 100%;
     margin: 0;
     padding: 0;
-    /* margin: 0 20px; */
 }
 .address-main{
-    margin: 50px;
-    margin-top: 20px;
+    margin: 20px 50px;
 }
 .address-text-sec{
     text-align: center;
@@ -93,32 +102,30 @@ li > img{
 }
 .address-text-sec > p {
     font-size:medium;
-    margin-bottom: 20px;
+    opacity: 0.7;
 }
-.franchise-1{
+.franchise-1, .franchise-2, .franchise-3{
     display:flex;
     flex-direction: row;
+    /* justify-content:flex-end; */
     border: 1px solid red;
+    width: 100%;
+    height: 250px;
+    margin: 10px;
 }
-.F1-img >img{
-    margin-left: 160px;
-    width: 500px;
-    height: 350px;
+.franchise-1 >.F1-text{
+    width: 45%;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid orchid;
 }
-.F1-text {
-    margin-top: 10px;
-    width: 400px;
+.F1-img{
+    width: 45%;
+    /* border: 1px solid orange; */
+}
+.F1-img > img{
+    width: 450px;
+}
+.F1-img > a{
     color: white;
-    margin: 20px;
-    letter-spacing: 1px;
-    line-height: 30px;
 }
-.F1-text >img{
-    width: 50px;
-}
-.F1-text >a{
-    color: white;
-    text-decoration: none;
-    margin-top: 40px;
-}
-
