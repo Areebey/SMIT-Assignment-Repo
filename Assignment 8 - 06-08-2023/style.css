@@ -186,7 +186,7 @@ li > img{
     text-align: center;
 }
 .express-franch-addrerss-main{
-    /* border: 1px solid yellow; */
+    padding: 30px;
 }
 
 .express-franch-addrerss-sub1{
@@ -195,11 +195,10 @@ li > img{
     justify-content: center;
 }
 .express-panel1{
-    padding: 20px;
-    width: 350px;
+    width: 300px;
 }
 .express-panel1 > img{
-    width: 300px;
+    width: 260px;
 }
 
 .express-franch-addrerss-sub2{
@@ -207,7 +206,13 @@ li > img{
     flex-direction: row;
     justify-content: center;
 }
-
+.express-panel4{
+    padding: 20px;
+    width: 300px;
+}
+.exxpress-panel4 > img{
+    width: 260px;
+}
 
 /* Villager Franchise Section  */
 
