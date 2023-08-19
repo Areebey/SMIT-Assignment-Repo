@@ -147,7 +147,6 @@ li > img{
 .franchise-2 >.F2-text{
     width: 45%;
     padding: 10px;
-    padding: 10px;
 }
 
 /* Third franchise  */
@@ -179,6 +178,74 @@ li > img{
     /* margin: 2px; */
 }
 
+/* Villager Franchise Section  */
+
+.village-franchise-section{
+    margin: 30px 0 50px 0;
+}
+.village-franchise-section >h2{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.village-franchise{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid red;
+    margin-top: 50px;
+}
+.vf-img{
+    width: 50%;
+    margin-right: 10px;
+
+}
+.vf-img > img{
+    width: 500px;
+    height: 300px;
+}
+.village-franchise >.vf-text{
+    width: 45%;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* Express Franchise Section */
+
+.express-franchise-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.express-panels{
+    padding: 30px 40px 40px 40px;
+}
+.sub-panels1, .sub-panels2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.panel1, .panel2, .panel3, .panel4, .panel5, .panel6{
+    background-color: white;
+    width: 28%;
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+.panel1 > img, .panel2 > img, .panel3 > img, .panel4 > img, .panel5 > img, .panel6 > img{
+    background-color: transparent;
+    width: 40px;
+    margin: 10px;
+}
+.panel1 >h4,p,span, .panel2 >h4,p,span, .panel3 >h4,p,span, .panel4 >h4,p,span, .panel5 >h4,p,span, .panel6 >h4,p,span{
+    background-color: transparent;
+    margin: 10px;
+}
+
 /* Social-Feed Section */
 .social-feed{
     color: white;
@@ -202,7 +269,6 @@ li > img{
 /* Footer section */
 
 .footer{
-    border: 1px solid red;
     background-color: black;
     color: white;
 }
