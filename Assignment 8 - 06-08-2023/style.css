@@ -181,13 +181,12 @@ li > img{
 /* Express-franchises-address-Section */
 
 .express-franchise-address-sec{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: white;
     text-align: center;
-    height: 600px;
 }
 .express-franch-addrerss-main{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .express-franch-addrerss-sub1{
@@ -202,6 +201,14 @@ li > img{
 .express-panel1 > img{
     width: 300px;
 }
+
+.express-franch-addrerss-sub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 /* Villager Franchise Section  */
 
 .village-franchise-section{
@@ -215,7 +222,6 @@ li > img{
 .village-franchise{
     display:flex;
     flex-direction: row;
-    border: 1px solid red;
     margin-top: 50px;
 }
 .vf-img{
