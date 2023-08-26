@@ -7,14 +7,13 @@
 }
 
 .header{
-    border: 1px solid red;
     margin: 0%;
     background-color: antiquewhite;
-    /* width: 100%; */
+    width: 100%;
     height: 100px;
 }
 .first-head, .second-head{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 50px;
     list-style: none;
     display: flex;
@@ -27,14 +26,12 @@
 }
 
 .olx-blue{
-    /* border: 1px solid purple; */
-    /* margin: 0%; */
     width: 35px;
 }
 
 .olx-black{
     width: 60px;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .dropdown-field, .input-field{
@@ -42,17 +39,85 @@
     color: #012f34;
     font-size: large;
     font-weight:500;
-    padding: 12px 130px 12px 10px;
+    padding: 10px 130px 10px 10px;
     border: 2px solid #012f34 ;
     border-radius: 4px;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
 }
 
 .search-btn{
-    padding: 15px 50px 15px 20px;
+    padding: 12px 10px 12px 10px;
     background-color: #012f34;
     border-radius: 0 4px 4px 0;
     color: white;
     font-size: large;
-    margin: 0;
+    /* margin: 0; */
+    margin-left: auto;
+}
+
+.login-btn{
+    /* border: 1px solid red; */
+    padding: 12px 10px 12px 10px;
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.sell-btn{
+    border-radius: 50px;
+    padding: 12px 10px 12px 25px;
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.head-categories{
+    border: 1px solid purple;
+}
+
+.head-categories > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+    /* margin-right: 10px; */
+}
+.head-categories >ul >li{
+    margin-right: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.advertise{
+    width: 400px;
+    height: 200px;
+}
+.advertise > img{
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin:50px 10px 20px 10px;
+}
+
+.All-categories-section{
+    width: 100%;
+    margin-top: 80px;
+}
+.sub-all-categories-section1, .sub-all-categories-section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.category-1{
+    text-align: center;
+    padding: 10px;
+}
+.category-1 > img{
+    width: 100px;
 }
