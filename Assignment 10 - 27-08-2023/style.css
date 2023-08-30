@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    color: #fff;
+    background: #0025ff;
+}
+.container{
+
+}
+.header{
+    border: 1px solid red;
+    background-color: #0025ff;
+    height: 100px;
+}
+.header > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid orange;
+}
+.header >ul >li{
+    height: 80px;
+    border: 1px solid palegreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+.pepsihead-logo{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+}
+.header > ul > li > a{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: small;
+    border: 1px solid yellow;
+    text-decoration: none;
+}
+.buy-product{
+    width: 100%;
+}
+.buy-products-btn{
+    margin-left: 75%;
+}
