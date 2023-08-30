@@ -45,9 +45,24 @@
     text-decoration: none;
 }
 .buy-product{
-    width: 100%;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    font-size: 16px;
+    height: 26px;
+    padding: 5px 30px 5px 30px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
 }
 .buy-product> a{
-    margin: 0;
-    border: 1px solid #eee;
+    /* padding: 0 10px 0 400px; */
+    
 }
