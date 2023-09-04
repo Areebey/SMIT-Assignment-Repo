@@ -1,68 +1,193 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    height: 100%;
-    color: #fff;
-    background: #0025ff;
+    padding: 0;
+    margin: 0;
+    background-color:#0025ff;
+    color: white;
 }
 
 .header{
-    border: 1px solid red;
-    background-color: #0025ff;
-    height: 80px;
+    /* width: 100%; */
+    padding: 10px;
+
+}
+.header-logo > a > img{
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
 }
 .header > ul{
-    width: 95%;
-    margin: auto;
-    padding: 0%;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    list-style: none;
-    border: 1px solid orange;
-}
-.brand-logo, .view-products-btn, .pepsi125-btn, .contact-us-btn, .buy-product{
-    height: 50px;
-    margin-right: 40px;
-    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size:14px;
-    cursor: pointer;
-    font-weight: 400;
-    white-space: nowrap;
-}
-.pepsihead-logo{
-    width: 54px;
-    height: 54px;
-    text-align: center;
-    border: 1px solid #eee;
-}
-.header > ul > li > a{
+    width: 100%;
+    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif 'Courier New', Courier, monospace;
-    font-size: smaller;
-    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
 }
-.buy-product{
-    /* width: 100%; */
-    /* margin: 0 auto; */
-    font-size: 16px;
-    height: 26px;
-    padding: 5px 30px 5px 30px;
+
+.header > ul >.left-icons{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.header > ul >.right-icon{
+    text-align: end;
+    margin-right: 20px;
+    font-size: 1em;
+    padding: 0.5em 1.85em;
     border: 2px solid #fff;
     border-radius: 1.8em;
     background: transparent;
-    color: #fff;
     font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
-    transition: background-color .1s ease-out, color .1s ease-out;
 }
-.buy-product> a{
-    /* padding: 0 10px 0 400px; */
-    
+.header-items >a{
+    text-decoration: none;
+}
+.video1{
+    width: 100%;
+}
+
+.pepsi125-days,.pepsi125-dinner{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+.pepsi125-headings,.dinner-heading{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: black;
+}
+.pepsi125-headings >h2{
+    background-color: black;
+}
+.pepsi125-days > a{
+    display: block;
+    padding: 40px 30px 80px 30px;
+    background-color: black;
+    cursor:auto;
+}
+.pepsi125-days > a > button{
+    width: 350px;
+    height:100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dinner-heading{
+    background-color: black;
+}
+.dinner-heading >h2,h3,span{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: black; 
+}
+.dinner-heading >h3> span{
+    color: #1636ff;
+}
+.pepsi125-days >img{
+    width: 90%;
+    height: auto;
+}
+.pepsi125-dinner > img{
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+}
+.dinner-para > p{
+    width: 100%;
+    background-color: black;
+    font-size: x-small;
+    padding: 30px 0;
+}
+.video2{
+    width: 100%;
+}
+
+.socials{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.social-headings h2{
+    background-color: black;
+    color: #1636ff;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.social-cards{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.social1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(185, 28, 247, 0.493);
+    margin-bottom: 30px;
+}
+.social1 >a>img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellowgreen;
+}
+
+.footer-main{
+    /* width: 100%; */
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 15%;
+}
+.footer-logo > img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.footer-items{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+}
+.footer-items >li> a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    line-height: 0.1px;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 20px;
+
+}
+.footer-socials >a> img{
+    width: 30px;
 }

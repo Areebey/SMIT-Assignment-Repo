@@ -1,0 +1,90 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+  color: #fff;
+  background: #0025ff;
+}
+
+.header {
+  border: 1px solid red;
+  background-color: #0025ff;
+  height: 80px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+.first-icon > ul {
+  width: 95%;
+  height: 50px;
+  /* margin: auto; */
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  list-style: none;
+  border: 1px solid orange;
+}
+
+.view-products-btn,
+.pepsi125-btn,
+.contact-us-btn{
+  margin-right: 40px;
+  font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.pepsihead-logo {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.first-icon > ul > li > a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif "Courier New", Courier, monospace;
+  font-size: small;
+  text-decoration: none;
+}
+.buy-product {
+  font-size: 16px;
+  height: 26px;
+  padding: 5px 30px 5px 30px;
+  border: 2px solid #fff;
+  list-style: none;
+  border-radius: 1.8em;
+  background: transparent;
+  color: #fff;
+  font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: background-color 0.1s ease-out, color 0.1s ease-out;
+  transition: background-color 0.1s ease-out, color 0.1s ease-out;
+}
+.buy-product > a {
+  text-decoration: none;
+
+}
+
+.pepsivideo{
+  width: 100%;
+}
+
+/* .video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+/* .video > video{
+    margin: 0;
+    padding: 0;
+} */
