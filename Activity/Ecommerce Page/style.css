@@ -9,9 +9,66 @@
     padding: 0%;
 }
 .body-sections{
-    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+}
+
+.left-sec{
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+    padding: 20px;
+
+}
+.head{
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+}
+.-left-hero-sec{
+    margin-top:50px ;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.-left-hero-sec>h1{
+    font-size: 50px;
+}
+.-left-hero-sec>p{
+    margin-top: 60px;
+    opacity: 0.75;
+    width: 70%;
+}
+.-left-hero-sec>button{
+    margin-top: 50px;
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    background-color: #92EBF1;
+}
+button>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    /* position: absolute;
+    left: 100px;
+    top: 445px; */
+}
+.-left-hero-sec>button:hover{
+    background-color: #078f99;
+}
+
+.right-sec{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(#AAD5D7, #97CDD2);
+    border: 1px solid purple;
+}
+.right-sec>img{
+    width: 70%;
 }
