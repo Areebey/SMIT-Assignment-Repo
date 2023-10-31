@@ -10,19 +10,21 @@
     margin: 0%;
     padding: 0%;
 }
-
+/* Header or Navbar */
 .navbar{
     width: 100%;
     height: 50px;
     border: 1px solid red;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
 }
 .logo{
     width: 20%;
     padding: 8px;
+    margin-left: 20px;
     border: 1px solid rgb(0, 255, 85);
 
 }
@@ -37,6 +39,8 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 10px;
 }
@@ -91,4 +95,84 @@
 .btn>.signUp:hover{
     background-color: white;
     color: #007E85;
+}
+/* -------------------------------------------------------------------- */
+
+/* Details section */
+
+.details{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.details-info>h2{
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.details-info>p{
+    opacity: 0.7;
+    /* padding: 10px; */
+    margin-bottom: 50px;
+}
+.details-btn>button{
+    width: 140px;
+    height: 30px;
+    margin-right: 20px;
+    /* padding: 30px; */
+
+}
+
+.img-men{
+    position: absolute;
+}
+.men-bg-img>img{
+    /* position: relative; */
+    left: 20px;
+}
+
+
+.img-men>.single-men{
+    /* width: 200px; */
+}
+
+/* Media Queries  */
+
+/* NavBar */
+@media screen and (max-width:1400px){
+
+}
+@media screen and (max-width:1000px){
+
+}
+@media screen and (max-width:800px){
+ 
+.icons{
+    display: none;
+}
+.btn>i{
+    display: inline-block;
+}
+.logo>img{
+    width: 110px;
+}
+}
+@media screen and (max-width:620px){
+ 
+    .btn>button{
+        display: none;
+    }
+    .btn>i{
+        margin: 0 0 0 auto;
+    }
+    .logo>img{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:350px){
+
+
 }
