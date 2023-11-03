@@ -9,6 +9,10 @@
     width: 100%;
     margin: 0%;
     padding: 0%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* Header or Navbar */
 .navbar{
@@ -26,10 +30,9 @@
     padding: 8px;
     margin-left: 20px;
     border: 1px solid rgb(0, 255, 85);
-
 }
 .logo>img{
-    width: 120px;
+    width: 140px;
     cursor: pointer;
 }
 
@@ -101,12 +104,21 @@
 /* Details section */
 
 .details{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
+    align-items: center;
+    border: 1px solid red;
 }
 
+/* Left Side  */
+
+.details-info{
+    width: 60%;
+    margin-left: 30px;
+    padding: 20px;
+    /* border: 1px solid purple; */
+}
 .details-info>h2{
     margin-bottom: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -114,29 +126,239 @@
 }
 .details-info>p{
     opacity: 0.7;
-    /* padding: 10px; */
+    padding: 10px 80px 10px 0;
     margin-bottom: 50px;
 }
 .details-btn>button{
     width: 140px;
     height: 30px;
     margin-right: 20px;
-    /* padding: 30px; */
-
+}
+.details-btn>.appointments-btn{
+    background-color: #007E85;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.details-btn>.appointments-btn:hover{
+    background-color: white;
+    color: #007E85;
+}
+.details-btn>.watchvideo-btn{
+    background-color: white;
+    color:#007E85;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid rgb(224, 220, 220);
+}
+.details-btn>.watchvideo-btn:hover{
+    background-color: #007E85;
+    color: white;
+}
+.watchvideo-btn>i{
+    margin-right: 5px;
+    background-color:#007E85;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 5px;
 }
 
-.img-men{
+/* Right Side  */
+
+.details-img{
+    position: relative;
+    width: 40%;
+    /* border: 2px solid darkgreen; */
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+}
+.men-bg-img{
+    width: 80%;
     position: absolute;
+    left: 32px;
+    top: 82px; 
 }
-.men-bg-img>img{
-    /* position: relative; */
+.single-men{
+    width: 85%;
+    position: absolute;
     left: 20px;
+    top: 20px;
+}
+.details-img>.rectangle1{
+    width: 32%;
+    position: absolute;
+    right: 18px;
+    top: 90px;
+}
+.details-img>p{
+    width: 35%;
+    position: absolute;
+    right: -14px;
+    top: 105px;
+    font-weight: 500;
+}
+.details-img>p>span{
+    color: #007E85;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.details-img>.rectangle2{
+    width: 30%;
+    position: absolute;
+    left: -35px;
+    bottom: 50px;
 }
 
-
-.img-men>.single-men{
-    /* width: 200px; */
+/* Find A Doctor Section */
+.finddoctor{
+    width: 80%;
+    /* border: 1px solid black; */
+    padding: 15px 25px 0px 25px;
+    background-color: beige;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
 }
+.finddoc-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    /* border: 1px solid red; */
+}
+.finddoc-content>input{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 1px solid #007E85;
+}
+.finddoc-content>p{
+    font-size: 15px;
+}
+.finddoc-content>p>i{
+    font-size: 25px;
+    margin-left: 10px;
+    color: #007E85;
+    cursor: pointer;
+}
+.finddoc-content>button{
+    width: 140px;
+    height: 30px;
+    background-color: #007E85;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 5px 0 auto;
+}
+
+/* Our Results Sections */
+.our-result{
+    width: 80%;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+.our-result>h2,.opt1>h3,.opt2>h3,.opt3>h3,.opt4>h3{
+    color: #007E85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* .opt1>h3,.opt2>h3,.opt3>h3,.opt4>h3{
+    color: #007E85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+} */
+.our-result>.results{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+/* Reason to Choose Section */
+.reason-section{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px 10px;
+    border: 1px solid black;
+}
+.reason-details{
+    width: 40%;
+}
+.reason-details>h3{
+    color: #007E85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.reason-details>p{
+    margin: 20px 0 30px 0;
+    opacity: 0.8;
+}
+.reason-details>button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.reason-details>.getstarted-btn{
+    background-color: #007E85;
+    color: white;
+}
+.reason-details>.getstarted-btn:hover{
+    background-color:white;
+    color:#007E85;
+}
+.reason-details>.talksales-btn{
+    background-color:white;
+    color:#007E85;
+    border: 1px solid rgb(224, 220, 220);
+}
+.reason-details>.talksales-btn:hover{
+    background-color: #007E85;
+    color: white;
+}
+.reason-img{
+    width: 50%;
+}
+.reason-img>img{
+    width: 100%;
+    cursor: no-drop;
+}
+
+/* Services Section */
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries  */
 
