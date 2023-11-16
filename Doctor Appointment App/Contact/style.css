@@ -99,3 +99,39 @@
     color: #007E85;
 }
 /* -------------------------------------------------------------------- */
+
+/* For Background Image */
+.bg{
+
+}
+
+/* COntact Form  */
+form{
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid red ;
+}
+
+/* .contact-form{
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid red ;
+} */
+form>h1,p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+label{
+    margin: 10px;
+    /* text-align: center; */
+}
+input{
+    margin: 10px;
+    padding: 20px;
+    /* text-align: center; */
+    border: 1px solid purple;
+}
