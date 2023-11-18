@@ -46,15 +46,19 @@
     gap: 30px;
     padding: 10px;
 }
-.icons>li{
+.icons>li>a{
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.icons>li:hover{
+.icons>li>a:hover{
     /* background-color: #9af7fc98; */
     color: #007E85;
     border-bottom: 2px solid rgb(96, 156, 5);
 }
-
+.icons>li>.home{
+    color: #007E85;
+}
 .btn{
     width: 28%;
     /* border: 1px solid rgb(23, 182, 245); */
