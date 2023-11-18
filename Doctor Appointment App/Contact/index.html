@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +16,11 @@
                 <img src="/images/logo.png" alt="">
             </div>
             <div class="icons">
-                <li>Home</li>
-                <li>Service</li>
-                <li>Contactus</li>
-                <li>Help</li>
-                <li>Blogs</li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a class="contact" href="/Contact/index.html">Contact Us</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Blogs</a></li>
             </div>
             <div class="btn">
                 <button class="signIn" >Sign In</button>
@@ -30,7 +31,7 @@
 
         <!-- Background Image  -->
         <div class="bg">
-            <img src="/images/" alt="">
+            <img src="/images/wall-bg.jpg" alt="">
             <p>Get in Touch</p>
         </div>
 
@@ -38,14 +39,86 @@
         <form class=".contact-form" action="">
             <h1>Contact US</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, atque.</p>
-            <label for="">First Name</label>
-            <input placeholder="Enter your first name" type="text"> <br>
-            <label for="">Last Name</label>
-            <input placeholder="Enter your Last name" type="text"> <br>
-            <label for="">Email</label>
-            <input placeholder="Enter your Email" type="email"> <br>
-            <label for="">Phone no.</label>
-            <input placeholder="Enter your Number" type="number"> <br>
+            <table>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input placeholder="Enter your first name" type="text" name="" id=""></td>
+                    <td><label for="">Last Name</label></td>
+                    <td><input placeholder="Enter your last name" type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input placeholder="Enter your email" type="email" name="" id=""></td>
+                    <td><label for="">Phone no.</label></td>
+                    <td><input placeholder="Enter your number" type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Choose a topic</label></td>
+                    <td><select name="" id=""></select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Message</label></td>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input class="checkbox-icon" type="checkbox" name="" id=""></td>
+                    <td><label for="">I accept the Terms</label></td>
+                </tr>
+            </table>
+            <button class="submit-btn" type="submit">Submit</button>
         </form>
+        
+    <!-- Newsletter -->
+
+    <div class="news-letter">
+        <h3>Subsc4ribe To Our Newsletter</h3>
+        <div class="letter-email">
+        <input placeholder="Enter your Email" type="text" id="">
+        <button>Subscribe</button>
+    </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-main">
+            <div class="col footer-logo">
+                <img src="/images/footer-logo.png" alt="">
+                <p>Copyright © 2022 BRIX Templates <br> | All Rights Reserved </p>
+            </div>
+            <div class="col">
+                <h4>Product</h4>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Case Studies</li>
+                <li>Reviews</li>
+                <li>Updates</li>
+            </div>
+            <div class="col">
+                <h4>Company</h4>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Careers</li>
+                <li>Culture</li>
+                <li>Blog</li>
+            </div>
+            <div class="col">
+                <h4>Support</h4>
+                <li>Getting Started</li>
+                <li>Help Center</li>
+                <li>Server Status</li>
+                <li>Report a Bug</li>
+                <li>Chat Support</li>
+            </div>
+            <div class="col socials-img">
+                <h4>Follow Us</h4>
+                <li><img src="/images/Facebook.png" alt="">Facebook</li>
+                <li><img src="/images/Instagram.png" alt="">Instagram</li>
+                <li><img src="/images/linkdin.png" alt="">Linkdin</li>
+                <li><img src="/images/YouTube.png" alt="">Youtube</li>
+            </div>
+        </div>
+    </footer>
+
+    </div>
 </body>
 </html>

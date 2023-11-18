@@ -46,15 +46,19 @@
     gap: 30px;
     padding: 10px;
 }
-.icons>li{
+.icons>li>a{
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.icons>li:hover{
+.icons>li>a:hover{
     /* background-color: #9af7fc98; */
     color: #007E85;
     border-bottom: 2px solid rgb(96, 156, 5);
 }
-
+.icons>li>.contact{
+    color: #007E85;
+}
 .btn{
     width: 28%;
     /* border: 1px solid rgb(23, 182, 245); */
@@ -102,17 +106,29 @@
 
 /* For Background Image */
 .bg{
-
+    width: 100%;
+}
+.bg>img{
+    margin: 5px 0px 50px 0px;
+    width: 100%;
+    height: 700px;
 }
 
+/* ----------------------------------------------------------------------------- */
 /* COntact Form  */
 form{
     width: 100%;
     padding: 30px;
     margin: 20px;
     border: 1px solid red ;
+    text-align: center;
 }
-
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 /* .contact-form{
     width: 100%;
     padding: 30px;
@@ -130,8 +146,28 @@ label{
     /* text-align: center; */
 }
 input{
+    width: 250px;
+    height: 50px;
     margin: 10px;
-    padding: 20px;
-    /* text-align: center; */
-    border: 1px solid purple;
+}
+.checkbox-icon{
+    width: 100px;
+    height: 20px;
+}
+textarea{
+    width: 500px;
+}
+
+.submit-btn{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #007E85;
+    border: none;
+    border-radius: 10px;
+}
+.submit-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: #007E85;
 }
